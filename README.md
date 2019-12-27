@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/celsonakata/java-sample-spring-rest-api-swagger.svg)](https://travis-ci.com/celsonakata/java-sample-spring-rest-api-swagger)
+
 # Sample Java REST API with Spring framework and Swagger UI
 
 ## Description
