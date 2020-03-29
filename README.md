@@ -13,6 +13,7 @@ This code is a sample of Java REST API using Spring framework and other technolo
 * DAO class using CRUD Operations Interface from Spring Data (CrudRepository);
 * [H2 Database](https://www.h2database.com/html/main.html) - Open-source in-memory SQL Database;
 * [Project Lombok](https://projectlombok.org/) - Java library that abstract getter and setter methods in POJO classes.
+* Unit tests with JUnit4 and Mockito - test code for coverage application java code.
 
 ## Build and Run
 To build and run the application, type:
