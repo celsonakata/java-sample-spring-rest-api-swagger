@@ -7,15 +7,15 @@ import java.util.stream.StreamSupport;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.com.nkt3.samples.springswagger.dao.BookDao;
 import br.com.nkt3.samples.springswagger.exception.ServiceException;
 import br.com.nkt3.samples.springswagger.model.Book;
+import br.com.nkt3.samples.springswagger.repository.BookRepository;
 
 @Service
 public class SpringSwaggerServiceImpl implements SpringSwaggerService {
 
 	@Autowired
-	private BookDao bookDao;
+	private BookRepository bookDao;
 	
 	@Override
 	public List<Book> getBooks() throws ServiceException {
